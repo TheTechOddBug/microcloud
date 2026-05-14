@@ -278,7 +278,7 @@ custom_tags = []
 if ('SINGLE_BUILD' in os.environ and os.environ['SINGLE_BUILD'] == 'True'):
     intersphinx_mapping = {
         'lxd': ('https://documentation.ubuntu.com/lxd/latest/', None),
-        'microceph': ('https://canonical-microceph.readthedocs-hosted.com/en/latest/', None),
+        'microceph': ('https://documentation.ubuntu.com/canonical-microceph/latest/', None),
         'microovn': ('https://canonical-microovn.readthedocs-hosted.com/en/latest/', None),
     }
 elif ('READTHEDOCS' in os.environ) and (os.environ['READTHEDOCS'] == 'True'):
